@@ -16,7 +16,7 @@ func setDefaultPrompt(msg []openai.Messages) []openai.Messages {
 			Role: "system", Content: "You are ChatGPT, " +
 				"a large language model trained by OpenAI. " +
 				"Answer in user's language as concisely as" +
-				" possible. Knowledge cutoff: 20230601 " +
+				" possible. Knowledge cutoff: 202301230 " +
 				"Current date" + time.Now().Format("20060102"),
 		})
 	}
